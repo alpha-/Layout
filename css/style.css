@@ -20,22 +20,29 @@ h1, h2, h3 {
     font-size: 1em;
 }
 
+body {
+    background-color: hsla(120, 70%, 80%, 1)
+}
+
+header {
+    background-color: white;
+    overflow: hidden;
+}
 /* main-header */
 
 #main-header {
     background-color: white;
-    top: 0;
-    left: 0;
     position: relative;
+    overflow: hidden;
 }
 #main-header h1 {
     text-align: left;
+    color: #000000;
 }
 
 /* Content */
 
 #main {
-    background-color: hsla(120,72%,70%, 1);
     width: 800px;
     margin: 0 auto;
 }
@@ -43,56 +50,64 @@ h1, h2, h3 {
 #main h2 {
     text-align: center;
     font-family: pacifico, cursive;
+    font-size: 2em;
+    padding: 15px 0;
 }
 
 #main div p {
-    line-height: 18px;
+    line-height: 1.6em;
+    padding: 15px 0;
 }
 
+div, .main-content1, .main-content2, .main-content3 {
+    float: left;
+    width: 60%;
+}
 
 #main .main-content1 h3 {
     text-align: left;
-    text-decoration: underline;
+    border-bottom: solid 1px;
 }
 
 #main .main-content2 h3 {
     text-align: left;
-    text-decoration: underline;
+    border-bottom: solid 1px;
 }
 
 #main .main-content3 h3 {
     text-align: left;
-    text-decoration: underline;
+    border-bottom: solid 1px;
 }
 
 /* Sidebar */
 
 ul li {
     list-style-type: none;
+    position: relative;
+    display: block;
+    float: right;
 }
 
 aside #sidebar {
     width: 25%;
     padding: 0 10px;
     float: right;
-    overflow: hidden;
-    border-style: solid;
-    line-height: 20px;
+    border: solid 1px;
 }
 
-aside h3 {
-    text-align: justify;
+#sidebar h3 {
+    text-align: center;
 }
 
-#sidebar {
-    background-color: hsla(120,60%,80%, .8);
-    position: relative;
-    display: block;
-    padding: 5px;
-
+#sidebar p {
+    line-height: 1.5em;
+    padding: 10px 0;
 }
 
 .item1, .item2, .item3 {
-    border-style: dotted;
-    padding: 20px;
+    border: dashed 1px;
+    padding: 10px;
+    margin: 10px;
+    background-color: hsla(120,60%,80%, .8);
+    float: right;
 }
