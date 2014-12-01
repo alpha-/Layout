@@ -1,0 +1,71 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* General Styles */
+
+header, section {
+    overflow: hidden;
+}
+
+h1, h2, h3, p {
+    color: #000000;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+/* main-header */
+
+#main-header {
+    background-color: white;
+    position: relative;
+}
+#main-header h1 {
+    text-align: left;
+}
+
+/* Content */
+
+#main {
+    background-color: limegreen;
+}
+
+#main h2 {
+    text-align: center;
+    font-family: pacifico, cursive;
+}
+
+#main, .main-content1, .main-content2, .main-content3 {
+
+}
+
+#main .main-content1 h3 {
+    text-align: left;
+    text-decoration: underline;
+}
+
+#main .main-content2 h3 {
+    text-align: left;
+    text-decoration: underline;
+}
+
+#main .main-content3 h3 {
+    text-align: left;
+    text-decoration: underline;
+}
+
+/* Sidebar */
+
+ul li {
+    list-style-type: none;
+}
+
+#sidebar {
+    background-color: lightgreen;
+}
