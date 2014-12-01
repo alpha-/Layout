@@ -33,7 +33,8 @@ h1, h2, h3 {
 /* Content */
 
 #main {
-    background-color: limegreen;
+    background-color: hsla(120,72%,70%, 1);
+    width: 800px;
 }
 
 #main h2 {
@@ -41,6 +42,8 @@ h1, h2, h3 {
     font-family: pacifico, cursive;
 }
 
+#main .main-content1 p {
+}
 #main, .main-content1, .main-content2, .main-content3 {
 
 }
@@ -67,5 +70,8 @@ ul li {
 }
 
 #sidebar {
-    background-color: lightgreen;
+    background-color: hsla(120,60%,80%, .8);
+    position: fixed;
+    top: 10%;
+    right: 10%;
 }
