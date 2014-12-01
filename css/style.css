@@ -24,6 +24,8 @@ h1, h2, h3 {
 
 #main-header {
     background-color: white;
+    top: 0;
+    left: 0;
     position: relative;
 }
 #main-header h1 {
@@ -35,6 +37,7 @@ h1, h2, h3 {
 #main {
     background-color: hsla(120,72%,70%, 1);
     width: 800px;
+    margin: 0 auto;
 }
 
 #main h2 {
@@ -42,11 +45,10 @@ h1, h2, h3 {
     font-family: pacifico, cursive;
 }
 
-#main .main-content1 p {
+#main div p {
+    line-height: 18px;
 }
-#main, .main-content1, .main-content2, .main-content3 {
 
-}
 
 #main .main-content1 h3 {
     text-align: left;
@@ -69,9 +71,28 @@ ul li {
     list-style-type: none;
 }
 
+aside #sidebar {
+    width: 25%;
+    padding: 0 10px;
+    float: right;
+    overflow: hidden;
+    border-style: solid;
+    line-height: 20px;
+}
+
+aside h3 {
+    text-align: justify;
+}
+
 #sidebar {
     background-color: hsla(120,60%,80%, .8);
-    position: fixed;
-    top: 10%;
-    right: 10%;
+    position: relative;
+    display: block;
+    padding: 5px;
+
+}
+
+.item1, .item2, .item3 {
+    border-style: dotted;
+    padding: 20px;
 }
